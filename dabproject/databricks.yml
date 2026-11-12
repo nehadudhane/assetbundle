@@ -5,8 +5,9 @@ bundle:
   uuid: 229106a0-144f-422a-9749-746a74b13aec
 
 include:
-  - resources/*.yml
-  - resource/*/*.yml
+  - resources/variables/*.yml
+  - resources/jobs/*.yml
+  - resources/pipelines/*.yml
 
 
 
