@@ -4,12 +4,12 @@ resources:
       name: demopipeline
       libraries:
         - glob:
-            include: ../src/pipelines/demopipeline/transformations/**
+            include: ../../src/pipelines/demopipeline/transformations/**
       schema: bronze
       continuous: false
       development: false
       photon: true
       channel: CURRENT
-      catalog: ${var.catalog_name}
+      catalog: ${var.catalog}
       serverless: true
-      root_path: ../src/pipelines/demopipeline
+      root_path: ../../src/pipelines/demopipeline
